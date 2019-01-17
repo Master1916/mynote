@@ -28,5 +28,33 @@ log git log --since=1.day.ago
 #### //一天之内的
 log git log --since=1.hour.ago
 #### //一个小时之内的
-log git log --since=`.month.ago --until=2.weeks.ago
-#### //一个月之前到半个月之前的log git
+log git log --since=`.month.ago --until=2.weeks.ago `
+#### 一个月之前到半个月之前的log git
+
+
+## 完美输出日志
+git log develop  HEAD --pretty=format:%s
+
+
+## git COMMIT 的时候 描述规范
+feat：新功能（feature）
+fix：修补bug
+docs：文档（documentation）
+style： 格式（不影响代码运行的变动）
+refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+test：增加测试
+chore：构建过程或辅助工具的变动
+
+
+## 更换远程 地址
+git remote set-url origin https://github.com/Master1916/LearnVueJs.git
+
+git remote set-url origin https://gitee.com/foreverything_admin/marketplace.git
+## 权限导致git文件变更
+diff --git a/Android.mk b/Android.mk
+old mode 100644
+new mode 100755
+原来是filemode的变化，文件chmod后其文件某些位是改变了的，如果严格的比较原文件和chmod后的文件，两者是有区别的，但是源代码通常只关心文本内容，因此chmod产生的变化应该忽略，所以设置一下：
+切到源码的根目录下，
+
+git config --add core.filemode false

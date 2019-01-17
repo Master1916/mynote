@@ -117,3 +117,17 @@ CREATE TABLE cities (
 CREATE TABLE capitals (
   state      char(2)
 ) INHERITS (cities);
+
+
+
+
+
+coalesce使用技巧
+
+```
+select coalesce(null,2,3); // Return 2
+
+select coalesce(null,null,3); // Return 3
+
+select coalesce(1,2,3); // Return 1
+```
