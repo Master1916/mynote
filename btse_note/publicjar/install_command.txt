@@ -1,0 +1,5 @@
+mvn install:install-file -Dfile=client_commons.jar -DgroupId=com.btse.match -DartifactId=client_commons -Dversion=1.6 -Dpackaging=jar
+
+mvn install:install-file -Dfile=server_commons.jar -DgroupId=com.btse.match -DartifactId=server_commons -Dversion=1.6 -Dpackaging=jar
+
+mvn install:install-file -Dfile=rateservice.jar -DgroupId=com.btse.match -DartifactId=rateservice -Dversion=1.0 -Dpackaging=jar

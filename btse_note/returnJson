@@ -1,0 +1,447 @@
+
+minmaxinfo 数据返回
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540441232565,
+    "data":{
+        "BTC":{
+            "name":"BTC",
+            "minValidPrice":0.5,
+            "minPriceIncrement":0.5,
+            "minPriceIncrementDecimals":1,
+            "minOrderSize":0.002,
+            "maxOrderSize":2000,
+            "minSizeIncrement":0.001,
+            "minSizeIncrementDecimals":3,
+            "priceGroup":[
+                0.5,
+                1,
+                5,
+                10,
+                50,
+                100,
+                500,
+                1000
+            ],
+            "priceGroupDecimals":[
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "formatPriceString":"#,###.0",
+            "formatSizeString":"#,##0.000"
+        },
+        "BCH":{
+            "name":"BCH",
+            "minValidPrice":0.05,
+            "minPriceIncrement":0.05,
+            "minPriceIncrementDecimals":2,
+            "minOrderSize":0.02,
+            "maxOrderSize":4000,
+            "minSizeIncrement":0.01,
+            "minSizeIncrementDecimals":2,
+            "priceGroup":[
+                0.05,
+                0.1,
+                0.5,
+                1,
+                5,
+                10,
+                50,
+                100
+            ],
+            "priceGroupDecimals":[
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "formatPriceString":"#,###.00",
+            "formatSizeString":"#,##0.00"
+        },
+        "ETH":{
+            "name":"ETH",
+            "minValidPrice":0.05,
+            "minPriceIncrement":0.05,
+            "minPriceIncrementDecimals":2,
+            "minOrderSize":0.05,
+            "maxOrderSize":5000,
+            "minSizeIncrement":0.01,
+            "minSizeIncrementDecimals":2,
+            "priceGroup":[
+                0.05,
+                0.1,
+                0.5,
+                1,
+                5,
+                10,
+                50,
+                100
+            ],
+            "priceGroupDecimals":[
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "formatPriceString":"#,###.00",
+            "formatSizeString":"#,##0.00"
+        },
+        "LTC":{
+            "name":"LTC",
+            "minValidPrice":0.005,
+            "minPriceIncrement":0.005,
+            "minPriceIncrementDecimals":3,
+            "minOrderSize":0.2,
+            "maxOrderSize":2000,
+            "minSizeIncrement":0.01,
+            "minSizeIncrementDecimals":2,
+            "priceGroup":[
+                0.005,
+                0.01,
+                0.05,
+                0.1,
+                0.5,
+                1,
+                5,
+                10
+            ],
+            "priceGroupDecimals":[
+                3,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "formatPriceString":"#,###.000",
+            "formatSizeString":"#,##0.00"
+        }
+    }
+}
+
+initMarketPrice 数据返回
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540442208976,
+    "data":{
+        "marketPrice":[
+            {
+                "cryptoId":null,
+                "cryptoName":"BTC",
+                "open":0,
+                "high":0,
+                "low":0,
+                "close":0,
+                "price":0,
+                "volume":0,
+                "gains":0,
+                "gainsType":null,
+                "favorite":0,
+                "paycoinName":"*",
+                "holeName":null,
+                "lable":"BITCOIN (BTC)",
+                "sort":1,
+                "status":1
+            },
+            {
+                "cryptoId":null,
+                "cryptoName":"ETH",
+                "open":0,
+                "high":0,
+                "low":0,
+                "close":0,
+                "price":0,
+                "volume":0,
+                "gains":0,
+                "gainsType":null,
+                "favorite":0,
+                "paycoinName":"*",
+                "holeName":null,
+                "lable":"ETHEREUM (ETH)",
+                "sort":2,
+                "status":1
+            },
+            {
+                "cryptoId":null,
+                "cryptoName":"BCH",
+                "open":0,
+                "high":0,
+                "low":0,
+                "close":0,
+                "price":0,
+                "volume":0,
+                "gains":0,
+                "gainsType":null,
+                "favorite":0,
+                "paycoinName":"*",
+                "holeName":null,
+                "lable":"BITCOIN CASH (BCH)",
+                "sort":3,
+                "status":1
+            },
+            {
+                "cryptoId":null,
+                "cryptoName":"LTC",
+                "open":0,
+                "high":0,
+                "low":0,
+                "close":0,
+                "price":0,
+                "volume":0,
+                "gains":0,
+                "gainsType":null,
+                "favorite":0,
+                "paycoinName":"*",
+                "holeName":null,
+                "lable":"LITECOIN (LTC)",
+                "sort":4,
+                "status":1
+            }
+        ]
+    }
+}
+/limitTs/init
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540444150758,
+    "data":{
+        "flag":null,
+        "allowConvert":null,
+        "coinList":[
+            {
+                "id":79,
+                "name":"Tether USD",
+                "shortName":"USDT",
+                "symbol":"₮",
+                "type":2,
+                "total":100,
+                "frozen":0,
+                "available":100,
+                "logo":"20180904005430.png",
+                "focus":0,
+                "status":"1"
+            },
+            {
+                "id":2,
+                "name":"Bitcoin",
+                "shortName":"BTC",
+                "symbol":"BTC",
+                "type":2,
+                "total":10,
+                "frozen":0,
+                "available":10,
+                "logo":"20180827224655.png",
+                "focus":0,
+                "status":"1"
+            },
+            {
+                "id":1,
+                "name":"Ethereum",
+                "shortName":"ETH",
+                "symbol":"ETH",
+                "type":2,
+                "total":100,
+                "frozen":0,
+                "available":100,
+                "logo":"20180827654463.png",
+                "focus":0,
+                "status":"1"
+            },
+            {
+                "id":3,
+                "name":"Bitcoin Cash",
+                "shortName":"BCH",
+                "symbol":"BCH",
+                "type":2,
+                "total":100,
+                "frozen":0,
+                "available":100,
+                "logo":"20180908185553876508.png",
+                "focus":0,
+                "status":"1"
+            },
+            {
+                "id":7,
+                "name":"Litecoin",
+                "shortName":"LTC",
+                "symbol":"LTC",
+                "type":2,
+                "total":100,
+                "frozen":0,
+                "available":100,
+                "logo":"20180827518218.png",
+                "focus":0,
+                "status":"1"
+            }
+        ],
+        "allowTransfer":null,
+        "payList":[
+            {
+                "id":4,
+                "name":"US Dollar",
+                "shortName":"USD",
+                "symbol":"$",
+                "type":1,
+                "total":100000,
+                "frozen":0,
+                "available":100000,
+                "logo":"20180827653657.png",
+                "focus":0,
+                "status":"1"
+            }
+        ],
+        "allowDeposit":0,
+        "allowWithdrawal":0
+    }
+}
+
+/index/announcement
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540449810282,
+    "data":[
+        {
+            "id":18,
+            "announcementdate":1536502984995,
+            "msgEn":"Click here to learn more about BTSE",
+            "msgZhcn":null,
+            "msgCn":"点击了解更多关于BTSE",
+            "link":"https://www.btse.com/learn-more",
+            "status":null,
+            "type":null,
+            "adminName":null
+        }
+    ]
+}
+/user/referral
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540450243629,
+    "data":{
+        "times":0,
+        "link":"http://www.cnqwc.com/home?ref=W621Z7",
+        "days":60
+    }
+}
+
+/inquire/allPending
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540450483843,
+    "data":null
+}
+
+/inquire/volume
+
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540451627292,
+    "data":[
+        230238424470457.84,
+        0,
+        0,
+        230238424470457.84,
+        230438082550905.88,
+        0,
+        230238424470457.84,
+        230438082550905.88,
+        230438082550905.88
+    ]
+}
+
+/user/referraldata
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540455567233,
+    "data":{
+        "USD":{
+            "lifetime":0,
+            "30days":0
+        },
+        "BTC":{
+            "lifetime":0,
+            "30days":0
+        },
+        "BCH":{
+            "lifetime":0,
+            "30days":0
+        },
+        "ETH":{
+            "lifetime":0,
+            "30days":0
+        },
+        "LTC":{
+            "lifetime":0,
+            "30days":0
+        }
+    }
+}
+
+
+otcoffer/list
+{
+    "code":1,
+    "msg":"Success",
+    "time":1540457694859,
+    "data":{
+        "totalRows":14,
+        "currentPage":1,
+        "totalPages":2,
+        "data":[
+            {
+                "offerId":"b912e1c2-79f4-4a86-9d64-495e800e947f",
+                "username":"154154",
+                "side":"S",
+                "type":"L",
+                "base":"BTC",
+                "price":1,
+                "size":1,
+                "percentage":0,
+                "total":1,
+                "notes":"654",
+                "state":2,
+                "createTime":"2018-10-03T04:11:25.712+0000",
+                "serialId":23
+            },
+            {
+                "offerId":"e9780da4-b8d1-4316-83dd-b16ad8597a0e",
+                "username":"大风",
+                "side":"S",
+                "type":"L",
+                "base":"BTC",
+                "price":6420,
+                "size":1,
+                "percentage":0,
+                "total":6420,
+                "notes":"大风 6420 卖一个",
+                "state":2,
+                "createTime":"2018-10-03T02:34:49.602+0000",
+                "serialId":21
+            }
+        ]
+    }
+}
